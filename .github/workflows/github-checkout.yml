@@ -31,4 +31,6 @@ jobs:
       - name: Run ls -al
         run : ls -al
       - name: Run ls -al
-        run : ls -al ~/.github
+        run : |
+          chmod +x ./.github
+          ls -al ~/.github
