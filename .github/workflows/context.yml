@@ -1,6 +1,8 @@
 # 실행할 때의 여러 환경 변수들을 Context로 전달해 준다
 on: push
 
+name: github context
+
 jobs:
   one:
     runs-on: ubuntu-latest
